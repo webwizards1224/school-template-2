@@ -1,0 +1,6 @@
+.certificate-icon::before {
+    font-family: "Font Awesome 5 Free";
+    /* Update with the correct font family */
+    content: "\f0a3";
+    /* Unicode of the certificate icon */
+}
