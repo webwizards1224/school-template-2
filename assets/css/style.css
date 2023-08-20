@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif !important;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #666666;
+  text-align: left;
+  background-color: #e6ebed !important;
+  text-decoration: none;
+}
+
+.white-sec {
+  background: #FFF;
+  padding: 3rem;
+}
+
+.text-blue {
+  color: #17a2b8;
+}
+
+.text-dark-blue {
+  color: #00394f;
+}
+
+img.abt_banner {
+  width: 100%;
+}
+
+i.fa.fa-bullhorn.pt-1.pe-2 {
+  color: yellow;
+}
+
+.team-item.position-relative img {
+  width: 100%;
+  padding: 10px;
+}
+
+.team-item .team-text {
+  position: absolute;
+  width: 250px;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #FFFFFF;
+  border: 17px solid var(--light);
+  transition: .5s;
+  padding: 20px;
+}
+
+.bg-light-blue {
+  background-color: #17a2b8 !important;
+}
+
+.bg-dark-blue {
+  background-color: #00394f !important;
+}
+
+.text-white a {
+  text-decoration: none !important;
+}
+
+/* Header */
+.school_header h1,
+h5 {
+  text-align: start;
+  color: #FFFF;
+}
+
+.navbar-brand.alignment.d-flex.mx-auto.container {
+  justify-content: start !important;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #17a2b8 !important;
+  background: #FFF;
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link {
+  color: #FFFFFF !important;
+  font-size: 18px;
+}
+
+ul.navbar-nav.me-auto {
+  width: 100%;
+  justify-content: space-around;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: #FFF !important;
+  background: #00394f !important;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #FFF !important;
+  background: #00394f !important;
+}
+
+.dropdown-item.disabled,
+.dropdown-item:disabled {
+  color: #FFF !important;
+  background: #00394f !important;
+}
+
+/* Footer */
+.back-to-top {
+  position: fixed;
+  display: none;
+  right: 30px;
+  bottom: 30px;
+  z-index: 11;
+  animation: action 1s infinite alternate;
+}
+
+.school_header {
+  white-space: normal;
+}
+
+/* About */
+
+.facility-box {
+  height: 220px;
+}
+
+/* dignitaries */
+img.dignitaries-img {
+  width: 90%;
+  margin: 15px;
+}
+
+/* awards */
+.portfolio-item .portfolio-btn {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  opacity: 0;
+  transition: .5s;
+}
+
+.portfolio-item:hover .portfolio-btn {
+  opacity: 1;
+}

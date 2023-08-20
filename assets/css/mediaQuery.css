@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+    .navbar-brand.alignment.d-flex.mx-auto.container {
+        justify-content: center !important;
+    }
+
+    .school_header h1,
+    h5 {
+        text-align: center;
+    }
+}
+
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+
+    .navbar .nav-item:hover .nav-link {}
+
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}
