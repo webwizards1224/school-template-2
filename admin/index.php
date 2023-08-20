@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-
+    <?php require 'header.php'; ?>
 </head>
 
 <body>
@@ -73,15 +73,17 @@
                             <div class="header-search">
                                 <div class="main-search morphsearch-search">
                                     <div class="input-group">
-                                        <span class="input-group-prepend search-close"><i class="ti-close input-group-text"></i></span>
+                                        <span class="input-group-prepend search-close"><i
+                                                class="ti-close input-group-text"></i></span>
                                         <input type="text" class="form-control" placeholder="Enter Keyword">
-                                        <span class="input-group-append search-btn"><i class="ti-search input-group-text"></i></span>
+                                        <span class="input-group-append search-btn"><i
+                                                class="ti-search input-group-text"></i></span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <a href="index.html">
-                            <img class="img-fluid" src="assets/images/logo.png" alt="Theme-Logo" />
+                            <img class="img-fluid" src="./assets/images/logo.png" alt="Theme-Logo" />
                         </a>
                         <a class="mobile-options waves-effect waves-light">
                             <i class="ti-more"></i>
@@ -90,7 +92,8 @@
                     <div class="navbar-container container-fluid">
                         <ul class="nav-left">
                             <li>
-                                <div class="sidebar_toggle"><a href="javascript:void(0)"><i class="ti-menu"></i></a></div>
+                                <div class="sidebar_toggle"><a href="javascript:void(0)"><i class="ti-menu"></i></a>
+                                </div>
                             </li>
                             <li>
                                 <a href="#!" onclick="javascript:toggleFullScreen()" class="waves-effect waves-light">
@@ -111,30 +114,36 @@
                                     </li>
                                     <li class="waves-effect waves-light">
                                         <div class="media">
-                                            <img class="d-flex align-self-center img-radius" src="assets/images/avatar-2.jpg" alt="Generic placeholder image">
+                                            <img class="d-flex align-self-center img-radius"
+                                                src="assets/images/avatar-2.jpg" alt="Generic placeholder image">
                                             <div class="media-body">
                                                 <h5 class="notification-user">John Doe</h5>
-                                                <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
+                                                <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer
+                                                    elit.</p>
                                                 <span class="notification-time">30 minutes ago</span>
                                             </div>
                                         </div>
                                     </li>
                                     <li class="waves-effect waves-light">
                                         <div class="media">
-                                            <img class="d-flex align-self-center img-radius" src="assets/images/avatar-4.jpg" alt="Generic placeholder image">
+                                            <img class="d-flex align-self-center img-radius"
+                                                src="assets/images/avatar-4.jpg" alt="Generic placeholder image">
                                             <div class="media-body">
                                                 <h5 class="notification-user">Joseph William</h5>
-                                                <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
+                                                <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer
+                                                    elit.</p>
                                                 <span class="notification-time">30 minutes ago</span>
                                             </div>
                                         </div>
                                     </li>
                                     <li class="waves-effect waves-light">
                                         <div class="media">
-                                            <img class="d-flex align-self-center img-radius" src="assets/images/avatar-3.jpg" alt="Generic placeholder image">
+                                            <img class="d-flex align-self-center img-radius"
+                                                src="assets/images/avatar-3.jpg" alt="Generic placeholder image">
                                             <div class="media-body">
                                                 <h5 class="notification-user">Sara Soudein</h5>
-                                                <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
+                                                <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer
+                                                    elit.</p>
                                                 <span class="notification-time">30 minutes ago</span>
                                             </div>
                                         </div>
@@ -187,7 +196,8 @@
                         <div class="pcoded-inner-navbar main-menu">
                             <div class="">
                                 <div class="main-menu-header">
-                                    <img class="img-80 img-radius" src="assets/images/avatar-4.jpg" alt="User-Profile-Image">
+                                    <img class="img-80 img-radius" src="assets/images/avatar-4.jpg"
+                                        alt="User-Profile-Image">
                                     <div class="user-details">
                                         <span id="more-details">John Doe<i class="fa fa-caret-down"></i></span>
                                     </div>
@@ -197,7 +207,8 @@
                                         <li class="more-details">
                                             <a href="user-profile.html"><i class="ti-user"></i>View Profile</a>
                                             <a href="#!"><i class="ti-settings"></i>Settings</a>
-                                            <a href="auth-normal-sign-in.html"><i class="ti-layout-sidebar-left"></i>Logout</a>
+                                            <a href="auth-normal-sign-in.html"><i
+                                                    class="ti-layout-sidebar-left"></i>Logout</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -207,7 +218,8 @@
                                     <div class="form-group form-primary">
                                         <input type="text" name="footer-email" class="form-control">
                                         <span class="form-bar"></span>
-                                        <label class="float-label"><i class="fa fa-search m-r-10"></i>Search Friend</label>
+                                        <label class="float-label"><i class="fa fa-search m-r-10"></i>Search
+                                            Friend</label>
                                     </div>
                                 </form>
                             </div>
@@ -358,7 +370,8 @@
                                         </li>
                                         <li class="">
                                             <a href="sample-page.html" class="waves-effect waves-dark">
-                                                <span class="pcoded-micon"><i class="ti-layout-sidebar-left"></i><b>S</b></span>
+                                                <span class="pcoded-micon"><i
+                                                        class="ti-layout-sidebar-left"></i><b>S</b></span>
                                                 <span class="pcoded-mtext">Sample Page</span>
                                                 <span class="pcoded-mcaret"></span>
                                             </a>
@@ -418,7 +431,8 @@
                                                             <div class="col-sm-6 p-b-20 p-t-20">
                                                                 <div class="row align-items-center text-center">
                                                                     <div class="col-4 p-r-0">
-                                                                        <i class="fas fa-volume-down text-c-green f-24"></i>
+                                                                        <i
+                                                                            class="fas fa-volume-down text-c-green f-24"></i>
                                                                     </div>
                                                                     <div class="col-8 p-l-0">
                                                                         <h5>100%</h5>
@@ -442,7 +456,8 @@
                                                             <div class="col-sm-6 p-b-20 p-t-20">
                                                                 <div class="row align-items-center text-center">
                                                                     <div class="col-4 p-r-0">
-                                                                        <i class="far fa-envelope-open text-c-blue f-24"></i>
+                                                                        <i
+                                                                            class="far fa-envelope-open text-c-blue f-24"></i>
                                                                     </div>
                                                                     <div class="col-8 p-l-0">
                                                                         <h5>120</h5>
@@ -461,7 +476,8 @@
                                                             <div class="col-sm-6 b-r-default p-b-20 p-t-20">
                                                                 <div class="row align-items-center text-center">
                                                                     <div class="col-4 p-r-0">
-                                                                        <i class="fas fa-share-alt text-c-purple f-24"></i>
+                                                                        <i
+                                                                            class="fas fa-share-alt text-c-purple f-24"></i>
                                                                     </div>
                                                                     <div class="col-8 p-l-0">
                                                                         <h5>1000</h5>
@@ -549,7 +565,8 @@
                                                         <h5>Member’s performance</h5>
                                                         <div class="card-header-right">
                                                             <ul class="list-unstyled card-option">
-                                                                <li><i class="fa fa fa-wrench open-card-option"></i></li>
+                                                                <li><i class="fa fa fa-wrench open-card-option"></i>
+                                                                </li>
                                                                 <li><i class="fa fa-window-maximize full-card"></i></li>
                                                                 <li><i class="fa fa-minus minimize-card"></i></li>
                                                                 <li><i class="fa fa-refresh reload-card"></i></li>
@@ -564,57 +581,77 @@
                                                                     <tr>
                                                                         <td>
                                                                             <div class="d-inline-block align-middle">
-                                                                                <img src="assets/images/avatar-4.jpg" alt="user image" class="img-radius img-40 align-top m-r-15">
+                                                                                <img src="assets/images/avatar-4.jpg"
+                                                                                    alt="user image"
+                                                                                    class="img-radius img-40 align-top m-r-15">
                                                                                 <div class="d-inline-block">
                                                                                     <h6>Shirley Hoe</h6>
-                                                                                    <p class="text-muted m-b-0">Sales executive , NY</p>
+                                                                                    <p class="text-muted m-b-0">Sales
+                                                                                        executive , NY</p>
                                                                                 </div>
                                                                             </div>
                                                                         </td>
                                                                         <td class="text-right">
-                                                                            <h6 class="f-w-700">$78.001<i class="fas fa-level-down-alt text-c-red m-l-10"></i></h6>
+                                                                            <h6 class="f-w-700">$78.001<i
+                                                                                    class="fas fa-level-down-alt text-c-red m-l-10"></i>
+                                                                            </h6>
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td>
                                                                             <div class="d-inline-block align-middle">
-                                                                                <img src="assets/images/avatar-2.jpg" alt="user image" class="img-radius img-40 align-top m-r-15">
+                                                                                <img src="assets/images/avatar-2.jpg"
+                                                                                    alt="user image"
+                                                                                    class="img-radius img-40 align-top m-r-15">
                                                                                 <div class="d-inline-block">
                                                                                     <h6>James Alexander</h6>
-                                                                                    <p class="text-muted m-b-0">Sales executive , EL</p>
+                                                                                    <p class="text-muted m-b-0">Sales
+                                                                                        executive , EL</p>
                                                                                 </div>
                                                                             </div>
                                                                         </td>
                                                                         <td class="text-right">
-                                                                            <h6 class="f-w-700">$89.051<i class="fas fa-level-up-alt text-c-green m-l-10"></i></h6>
+                                                                            <h6 class="f-w-700">$89.051<i
+                                                                                    class="fas fa-level-up-alt text-c-green m-l-10"></i>
+                                                                            </h6>
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td>
                                                                             <div class="d-inline-block align-middle">
-                                                                                <img src="assets/images/avatar-4.jpg" alt="user image" class="img-radius img-40 align-top m-r-15">
+                                                                                <img src="assets/images/avatar-4.jpg"
+                                                                                    alt="user image"
+                                                                                    class="img-radius img-40 align-top m-r-15">
                                                                                 <div class="d-inline-block">
                                                                                     <h6>Shirley Hoe</h6>
-                                                                                    <p class="text-muted m-b-0">Sales executive , NY</p>
+                                                                                    <p class="text-muted m-b-0">Sales
+                                                                                        executive , NY</p>
                                                                                 </div>
                                                                             </div>
                                                                         </td>
                                                                         <td class="text-right">
-                                                                            <h6 class="f-w-700">$89.051<i class="fas fa-level-up-alt text-c-green m-l-10"></i></h6>
+                                                                            <h6 class="f-w-700">$89.051<i
+                                                                                    class="fas fa-level-up-alt text-c-green m-l-10"></i>
+                                                                            </h6>
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td>
                                                                             <div class="d-inline-block align-middle">
-                                                                                <img src="assets/images/avatar-2.jpg" alt="user image" class="img-radius img-40 align-top m-r-15">
+                                                                                <img src="assets/images/avatar-2.jpg"
+                                                                                    alt="user image"
+                                                                                    class="img-radius img-40 align-top m-r-15">
                                                                                 <div class="d-inline-block">
                                                                                     <h6>Nick Xander</h6>
-                                                                                    <p class="text-muted m-b-0">Sales executive , EL</p>
+                                                                                    <p class="text-muted m-b-0">Sales
+                                                                                        executive , EL</p>
                                                                                 </div>
                                                                             </div>
                                                                         </td>
                                                                         <td class="text-right">
-                                                                            <h6 class="f-w-700">$89.051<i class="fas fa-level-up-alt text-c-green m-l-10"></i></h6>
+                                                                            <h6 class="f-w-700">$89.051<i
+                                                                                    class="fas fa-level-up-alt text-c-green m-l-10"></i>
+                                                                            </h6>
                                                                         </td>
                                                                     </tr>
                                                                 </tbody>
@@ -632,7 +669,9 @@
                                                         <div class="card text-center order-visitor-card">
                                                             <div class="card-block">
                                                                 <h6 class="m-b-0">Total Subscription</h6>
-                                                                <h4 class="m-t-15 m-b-15"><i class="fa fa-arrow-down m-r-15 text-c-red"></i>7652</h4>
+                                                                <h4 class="m-t-15 m-b-15"><i
+                                                                        class="fa fa-arrow-down m-r-15 text-c-red"></i>7652
+                                                                </h4>
                                                                 <p class="m-b-0">48% From Last 24 Hours</p>
                                                             </div>
                                                         </div>
@@ -641,7 +680,9 @@
                                                         <div class="card text-center order-visitor-card">
                                                             <div class="card-block">
                                                                 <h6 class="m-b-0">Order Status</h6>
-                                                                <h4 class="m-t-15 m-b-15"><i class="fa fa-arrow-up m-r-15 text-c-green"></i>6325</h4>
+                                                                <h4 class="m-t-15 m-b-15"><i
+                                                                        class="fa fa-arrow-up m-r-15 text-c-green"></i>6325
+                                                                </h4>
                                                                 <p class="m-b-0">36% From Last 6 Months</p>
                                                             </div>
                                                         </div>
@@ -672,7 +713,9 @@
                                                         <div class="card text-center order-visitor-card">
                                                             <div class="card-block">
                                                                 <h6 class="m-b-0">Unique Visitors</h6>
-                                                                <h4 class="m-t-15 m-b-15"><i class="fa fa-arrow-down m-r-15 text-c-red"></i>652</h4>
+                                                                <h4 class="m-t-15 m-b-15"><i
+                                                                        class="fa fa-arrow-down m-r-15 text-c-red"></i>652
+                                                                </h4>
                                                                 <p class="m-b-0">36% From Last 6 Months</p>
                                                             </div>
                                                         </div>
@@ -681,7 +724,9 @@
                                                         <div class="card text-center order-visitor-card">
                                                             <div class="card-block">
                                                                 <h6 class="m-b-0">Monthly Earnings</h6>
-                                                                <h4 class="m-t-15 m-b-15"><i class="fa fa-arrow-up m-r-15 text-c-green"></i>5963</h4>
+                                                                <h4 class="m-t-15 m-b-15"><i
+                                                                        class="fa fa-arrow-up m-r-15 text-c-green"></i>5963
+                                                                </h4>
                                                                 <p class="m-b-0">36% From Last 6 Months</p>
                                                             </div>
                                                         </div>
@@ -699,30 +744,38 @@
                                                         <div class="row">
                                                             <div class="col-xl-3 col-md-6">
                                                                 <h6>Published Project</h6>
-                                                                <h5 class="m-b-30 f-w-700">532<span class="text-c-green m-l-10">+1.69%</span></h5>
+                                                                <h5 class="m-b-30 f-w-700">532<span
+                                                                        class="text-c-green m-l-10">+1.69%</span></h5>
                                                                 <div class="progress">
-                                                                    <div class="progress-bar bg-c-red" style="width:25%"></div>
+                                                                    <div class="progress-bar bg-c-red"
+                                                                        style="width:25%"></div>
                                                                 </div>
                                                             </div>
                                                             <div class="col-xl-3 col-md-6">
                                                                 <h6>Completed Task</h6>
-                                                                <h5 class="m-b-30 f-w-700">4,569<span class="text-c-red m-l-10">-0.5%</span></h5>
+                                                                <h5 class="m-b-30 f-w-700">4,569<span
+                                                                        class="text-c-red m-l-10">-0.5%</span></h5>
                                                                 <div class="progress">
-                                                                    <div class="progress-bar bg-c-blue" style="width:65%"></div>
+                                                                    <div class="progress-bar bg-c-blue"
+                                                                        style="width:65%"></div>
                                                                 </div>
                                                             </div>
                                                             <div class="col-xl-3 col-md-6">
                                                                 <h6>Successfull Task</h6>
-                                                                <h5 class="m-b-30 f-w-700">89%<span class="text-c-green m-l-10">+0.99%</span></h5>
+                                                                <h5 class="m-b-30 f-w-700">89%<span
+                                                                        class="text-c-green m-l-10">+0.99%</span></h5>
                                                                 <div class="progress">
-                                                                    <div class="progress-bar bg-c-green" style="width:85%"></div>
+                                                                    <div class="progress-bar bg-c-green"
+                                                                        style="width:85%"></div>
                                                                 </div>
                                                             </div>
                                                             <div class="col-xl-3 col-md-6">
                                                                 <h6>Ongoing Project</h6>
-                                                                <h5 class="m-b-30 f-w-700">365<span class="text-c-green m-l-10">+0.35%</span></h5>
+                                                                <h5 class="m-b-30 f-w-700">365<span
+                                                                        class="text-c-green m-l-10">+0.35%</span></h5>
                                                                 <div class="progress">
-                                                                    <div class="progress-bar bg-c-yellow" style="width:45%"></div>
+                                                                    <div class="progress-bar bg-c-yellow"
+                                                                        style="width:45%"></div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -742,7 +795,8 @@
             </div>
         </div>
     </div>
-   
+
+    <?php require 'footer.php'; ?>
 
 </body>
 
