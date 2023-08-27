@@ -38,23 +38,31 @@
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link active dropdown-toggle" href="#" data-bs-toggle="dropdown"> About Us </a>
+                            <a class="nav-link  dropdown-toggle active" href="#" data-bs-toggle="dropdown"> About Us
+                            </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="about.php"> Our Story </a></li>
-                                <li><a class="dropdown-item" href=""> Messages from Dignitaries </a></li>
-                                <li><a class="dropdown-item" href="#"> Awards </a></li>
-                                <li><a class="dropdown-item" href="#"> Media Coverage </a></li>
+                                <li><a class="dropdown-item" href="messages-from-dignitaries.php"> Messages from
+                                        Dignitaries </a></li>
+                                <li><a class="dropdown-item" href="mentors.php"> Meet Our Teachers </a></li>
+                                <li><a class="dropdown-item" href="awards.php"> Awards </a></li>
+                                <li><a class="dropdown-item" href="media-coverage.php"> Media Coverage </a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="mentors.html">Mentors</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Activities</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">News</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Admissions</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">PTA</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Alumni</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">FAQs</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Academics </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="holiday-list.php"> Holidays of the Year </a></li>
+                                <li><a class="dropdown-item" href="rules-regulations.php"> Rules & Regulations </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="admissions.php">Admissions</a></li>
+                        <li class="nav-item"><a class="nav-link" href="fee-structure.php">Fee Structure</a></li>
+                        <li class="nav-item"><a class="nav-link" href="faqs.php">FAQs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="forms.php">Forms</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact-us.php">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="complaints-suggestions.php">Complaints &
+                                Suggestions</a></li>
                     </ul>
                 </div>
             </div>

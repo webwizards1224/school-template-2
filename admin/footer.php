@@ -16,3 +16,18 @@
 <script src="assets/js/vertical/vertical-layout.min.js "></script>
 
 <script type="text/javascript" src="assets/js/script.js "></script>
+<!-- Summernote -->
+<script type="text/javascript" src="assets/summernote/summernote-bs4.min.js"></script>
+<script type="text/javascript" src="assets/summernote/summernote.js"></script>
+
+
+<!-- Page specific script -->
+<script>
+    $(function() {
+        // Summernote
+        $('#summernote').summernote();
+    })
+</script>
+</body>
+
+</html>
