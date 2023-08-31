@@ -14722,3 +14722,12 @@ i.far.fa-user.text-c-white.user {
 	font-size: 20px !important;
 	margin-right: 10px;
 }
+
+thead {
+	background: #00394f !important;
+	color: #FFF !important;
+}
+
+a {
+	color: #FFF !important;
+}

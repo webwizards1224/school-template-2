@@ -96,7 +96,7 @@
                 </nav>
                 <div class="pcoded-content">
                     <!-- Page-header start -->
-                    <div class="page-header">
+                    <!-- <div class="page-header">
                         <div class="page-block">
                             <div class="row align-items-center">
                                 <div class="col-md-8">
@@ -116,66 +116,69 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- Page-header end -->
                     <div class="pcoded-inner-content">
                         <!-- Main-body start -->
                         <div class="main-body">
                             <div class="page-wrapper">
-
-                                <!-- Page body start -->
+                                <!-- Page-body start -->
                                 <div class="page-body">
-                                    <div class="row">
-                                        <div class="col-sm-12">
-                                            <!-- Basic Form Inputs card start -->
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <h5>Basic Form Inputs</h5>
-                                                    <span>Add class of <code>.form-control</code> with
-                                                        <code>&lt;input&gt;</code> tag</span>
-                                                </div>
-                                                <div class="card-block">
-                                                    <form>
-                                                        <div class="form-group row">
-                                                            <label class="col-sm-2 col-form-label">Title</label>
-                                                            <div class="col-sm-10">
-                                                                <input type="text" name="title" class="form-control"
-                                                                    placeholder="Type your Notice Title">
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group row">
-                                                            <label class="col-sm-2 col-form-label">Description</label>
-                                                            <div class="col-sm-10">
-                                                                <textarea id="summernote" rows="5" cols="5" class="form-control"
-                                                                    placeholder="Description"></textarea>
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group row">
-                                                            <label class="col-sm-2 col-form-label">Upload File</label>
-                                                            <div class="col-sm-10">
-                                                                <input type="file" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group row">
-                                                            <label class="col-sm-2 col-form-label">Select Status</label>
-                                                            <div class="col-sm-10">
-                                                                <select name="select" class="form-control">
-                                                                    <option value="Published">Published</option>
-                                                                    <option value="Draft">Draft</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                </div>
+                                    <div class="card">
+                                        <div class="card-header d-flex">
+                                            <div class="col-md-10">
+                                                <h5>Notice</h5>
+                                                <span>Empowering Students and Parents Through Timely <code>Notices</code></span>
                                             </div>
-                                            <!-- Basic Form Inputs card end -->
+                                            <div class="col-md-2">
+                                                <a class="btn btn-inverse waves-effect waves-light" href="new-notice.php">+ New Notice</a>
+                                            </div>
+                                        </div>
+                                        <div class="card-block table-border-style">
+                                            <div class="table-responsive">
+                                                <table class="table auto-index table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>Title</th>
+                                                            <th>Status</th>
+                                                            <th>Action</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <?php
+                                                        require('sqlFiles/db.php');
+                                                        $query = ("SELECT * FROM `notice` ORDER BY id DESC ");
+                                                        $result = mysqli_query($con, $query);
+                                                        while ($rows = $result->fetch_assoc()) {
+                                                            global $i;
+                                                            $i == 1;
+                                                            $i++;
+                                                        ?>
+                                                            <tr>
+                                                                <td><?php echo $i; ?></td>
+                                                                <td><?php echo $rows['title']; ?></td>
+                                                                <td><?php echo $rows['status']; ?></td>
+                                                                <td>
+                                                                    <div class="btn-group " role="group" data-toggle="tooltip" data-placement="top" title="" data-original-title="Actions">
+                                                                        <button type="button" class="btn btn-primary btn-md waves-effect waves-light"><a href="edit-notice.php?id=<?php echo $rows['id']; ?>">Edit</a></button>
+                                                                        <button type="button" class="btn btn-primary btn-md waves-effect waves-light"><a href="edit-notice.php?id=<?php echo $rows['id']; ?>">View</a></button>
+                                                                        <button type="button" class="btn btn-primary btn-md waves-effect waves-light"><a href="sqlFiles/deleteNoticeSQL.php?id=<?php echo $rows['id']; ?>">Delete</a></button>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        <?php } ?>
+                                                    </tbody>
+                                                </table>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Page body end -->
+                                <!-- Page-body end -->
                             </div>
                         </div>
                         <!-- Main-body end -->
+
                         <div id="styleSelector">
 
                         </div>
